@@ -14,5 +14,12 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
 // 
 Route::gte('abc','IndexController@indexsss');
+
+
+
+
+Route::get('ccc','CateController@index');
+
